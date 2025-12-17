@@ -1,0 +1,16 @@
+rtabmap:
+  ros__parameters:
+    frame_id: "camera_link"
+    subscribe_depth: true
+    subscribe_rgb: true
+    subscribe_scan: false
+    subscribe_stereo: false
+    rgbd_cameras: 1
+    Reg/Strategy: 0
+    Grid/3D: true            
+    Vis/MinInliers: 15
+    RGBD/LinearUpdate: 0.1
+    RGBD/AngularUpdate: 0.1
+    RGBD/CreateOccupancyGrid: true
+    sync_queue_size: 20
+    topic_queue_size: 10
